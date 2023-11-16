@@ -45,7 +45,7 @@ export const Currencies: FC<ICurrencies> = ({isSimplified}) => {
         <div className='currencies-list'>
             <Carousel
                 partialVisible={true}
-                swipeable={false}
+                swipeable={true}
                 draggable={true}
                 showDots={false}
                 responsive={responsive}
