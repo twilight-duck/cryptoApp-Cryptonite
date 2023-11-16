@@ -1,0 +1,13 @@
+
+.currencies-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 70vw;
+    transition: transform ease 0.3s;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 850px){
+        max-width: 80vw;
+    }
+}

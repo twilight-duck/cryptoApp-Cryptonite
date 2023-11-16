@@ -1,0 +1,29 @@
+.news-item{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.news-header {
+    display: flex;
+    flex-direction: column;
+
+    & img{
+        max-width: 250px;
+    }
+}
+
+.news-header__title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.news-description{
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.news-date{
+    color: #AB9F9F;
+}

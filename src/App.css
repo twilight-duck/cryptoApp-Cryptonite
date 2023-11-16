@@ -1,0 +1,9 @@
+.App {
+  /* background-color: #000; */
+  display: flex;
+  gap: 40px;
+}
+
+.main{
+  min-height: 1000px;
+}

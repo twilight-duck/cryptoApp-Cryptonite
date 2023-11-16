@@ -1,0 +1,211 @@
+.navbar-wrapper{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #4eff9f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 40px;
+    max-width: 215px;
+    position: sticky;
+    top: 0px;
+
+    @media screen and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        min-width: 100vw;
+        min-height: 100%;
+        padding: 40px 0px;
+        z-index: 1001;
+        transition: all ease 0.3s;
+        left: -1000px;
+    }
+
+    &.mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        min-width: 100vw;
+        min-height: 100%;
+        padding: 40px 0px;
+        z-index: 1001;
+        transition: all ease 0.3s;
+        left: 0;
+    }
+}
+
+.burger-menu{
+    height: 40px;
+    width: 4em;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 19px;
+    left: 13px;
+    z-index: 1002;
+
+    @media screen and (max-width: 768px){
+        display: flex;
+    }
+}
+
+
+.burger-menu__line{
+    width: 35px;
+    height: 5px;
+    background-color: #4eff9f;
+    border-radius: 0.5em;
+}
+
+.burger-menu__line.clicked:nth-child(1){
+    transform: rotate(39deg) translate(0.1em, 0.4em);
+    transition: ease-out 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.burger-menu__line.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.burger-menu__line.clicked:nth-child(3){
+    transform: rotate(138deg) translate(-0.4em, 0.9em);
+    transition: ease-out 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.burger-menu__line.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+
+    &-title{
+        color: #fff;
+    }
+}
+
+.menu-list-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    transition: all ease-out 0.3s;
+
+    &__title{
+        font-size: 18px;
+
+        @media screen and (max-width: 768px){
+            font-size: 22px;
+        }
+    }
+
+    & svg{
+        width: 20px;
+        height: 24px;
+    }
+
+    &:hover{
+        border-radius: 10px;
+        background: #71BC78;
+        padding: 5px 10px;
+    }
+}
+
+
+.menu-list{
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.coin-info{
+    z-index: 10;
+    margin-bottom: 66px;
+
+    &.mobile{
+        display: none;
+    }
+}
+
+.coin-img img{
+    width: 270px;
+    height: 150px;
+    position: relative;
+    left: -50px;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+
+.coin-button{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #3E784E;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: #fff;
+    transition: all ease 0.3s;
+
+    &:hover{
+        filter: contrast(110%) brightness(1.2) saturate(1.2);
+    }
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+
+.navbar-actions{
+    display: flex;
+    min-width: 176px;
+}
+
+.navbar-actions-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+
+
+}
+
+.navbar-actions-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    transition: all ease-out 0.3s;
+
+
+    & svg{
+        width: 20px;
+        height: 24px;
+    }
+
+    &:hover{
+        border-radius: 10px;
+        background: #71BC78;
+        padding: 5px 10px;
+    }
+}
+
+.navbar-actions-text{
+    font-size: 18px;
+
+    @media screen and (max-width: 768px){
+        font-size: 22px;
+    }
+}
+
