@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5467165.css",
+    "main.js": "/static/js/main.951bb42f.js",
+    "static/media/Nitecoin.png": "/static/media/Nitecoin.49b17003022c2cb2916a.png",
+    "static/media/Logo.svg": "/static/media/Logo.dca5a78f6f0c8e2198d8e5f3cc1fc803.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/arrow-up.svg": "/static/media/arrow-up.81ce0fb2e63d3602d75aee6e447b2864.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.7b2a893a9a6f090bba091d2bdc1ca863.svg",
+    "static/media/Settings.svg": "/static/media/Settings.f0cf7829eb2d30bde495f9ed23bcd7af.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.50bd446f1c6ca7ecd6287e49cf3dbf41.svg",
+    "static/media/LogOut.svg": "/static/media/LogOut.34f3ffb25cd6a3e3770d0e7e33f9d16d.svg",
+    "index.html": "/index.html",
+    "static/media/Notifications.svg": "/static/media/Notifications.86ad4f9c89cbb4eedcbb8d9955fb3b6f.svg",
+    "static/media/Trade.svg": "/static/media/Trade.2ff06196382a8e8c4abcbd43812e2b9e.svg",
+    "static/media/Wallet.svg": "/static/media/Wallet.881e2e49efc68149a6ec93eded9412e7.svg",
+    "static/media/User.svg": "/static/media/User.bad2773b07491455cf382d27eca042c5.svg",
+    "main.b5467165.css.map": "/static/css/main.b5467165.css.map",
+    "main.951bb42f.js.map": "/static/js/main.951bb42f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5467165.css",
+    "static/js/main.951bb42f.js"
+  ]
+}
